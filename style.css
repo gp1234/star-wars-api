@@ -1,0 +1,64 @@
+*,*:after, *:before {
+    margin:0;
+    padding: 0;
+}
+html {
+    box-sizing: border-box;
+
+}
+body {
+    min-height: 100vh;
+    box-sizing: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-image: url('./img/sw.jpg');
+    background-size: cover;
+}
+.container {
+    max-width: 750px;
+    
+}
+form {
+    margin: 20px 0;
+}
+input {
+    width: 100%;
+}
+
+h1 {
+    font-size: 42px;
+    color: yellow;
+    text-shadow: 2px 2px 2px #000;
+}
+input {
+    padding: 5px 0;
+}
+input[type="number"] {
+    margin: 5px 0;
+} 
+input[type="submit"] {
+    background-color: #1F7695;
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #eee;
+}
+
+table,th,td {
+    border: 1px solid black;
+}
+td {
+    padding: 5px;
+}
+tr:nth-child(even) {
+    background-color: #1F7695;
+    color: white;
+}
