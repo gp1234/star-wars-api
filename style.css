@@ -13,8 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
-    background-image: url('./img/sw.jpg');
-    background-size: cover;
+    background-color: #000;
 }
 .container {
     max-width: 750px;
@@ -30,7 +29,7 @@ input {
 h1 {
     font-size: 42px;
     color: yellow;
-    text-shadow: 2px 2px 2px #000;
+
 }
 input {
     padding: 5px 0;
