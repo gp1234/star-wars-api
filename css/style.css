@@ -31,6 +31,16 @@ h1 {
     color: yellow;
 
 }
+.logo {
+    width: 50%;
+    margin: auto;
+    
+}
+.logo img {
+
+        max-width:100%;
+    
+}
 input {
     padding: 5px 0;
 }
